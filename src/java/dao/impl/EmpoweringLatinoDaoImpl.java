@@ -6,13 +6,13 @@
 package dao.impl;
 
 import dao.EmpoweringLatinoDao;
-import org.springframework.transaction.annotation.Transactional;
+import org.springframework.stereotype.Repository;
 
 /**
  *
  * @author Armando
  */
-@Transactional
+@Repository
 public class EmpoweringLatinoDaoImpl implements EmpoweringLatinoDao {
     
 }
